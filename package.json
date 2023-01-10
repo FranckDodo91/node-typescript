@@ -7,7 +7,8 @@
         "start:dev": "ts-node src/index.ts",
         "start:daemon": "nodemon -e .ts,.js,.json -w src -x \"npm run start:dev\"",
         "start": "\"npm run start:daemon\"",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
     },
     "keywords": [],
     "author": "Glaz Dodo",
